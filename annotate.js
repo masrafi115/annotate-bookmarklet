@@ -244,7 +244,7 @@ function AntLoad() {
 	};
 
 	// Load styles
-	load('http://20twoes.github.com/annotate-bookmarklet/assets/annotate.css', 'css');
+	load('http://masrafi115.github.com/annotate-bookmarklet/assets/annotate.css', 'css');
 
 	// Load RequireJS
 	try {
