@@ -244,7 +244,7 @@ function AntLoad() {
 	};
 
 	// Load styles
-	load('http://masrafi115.github.com/annotate-bookmarklet/annotate.css', 'css');
+	load('http://masrafi115.github.io/annotate-bookmarklet/annotate.css', 'css');
 
 	// Load RequireJS
 	try {
