@@ -244,7 +244,7 @@ function AntLoad() {
 	};
 
 	// Load styles
-	load('http://masrafi115.github.io/annotate-bookmarklet/annotate.css', 'css');
+	load('https://masrafi115.github.io/annotate-bookmarklet/annotate.css', 'css');
 
 	// Load RequireJS
 	try {
@@ -254,8 +254,9 @@ function AntLoad() {
 			AntMain();
 	} catch(e) {
 		// Load if obj not defined
-		load('http://requirejs.org/docs/release/1.0.7/minified/require.js');
+		load('https://requirejs.org/docs/release/2.3.7/minified/require.js');
 	}
+	
 
 	// Load the rest of our dependencies
 	document.getElementById('ant-asset' + assetID).addEventListener('load', AntMain);
@@ -266,9 +267,9 @@ function AntMain() {
 	require([
 			'https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js',
 			'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js',
-			'http://documentcloud.github.com/underscore/underscore-min.js',
-			'http://documentcloud.github.com/backbone/backbone-min.js',
-			'https://raw.github.com/jeromegn/Backbone.localStorage/master/backbone.localStorage.js'
+			'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.7/underscore-min.js',
+			'https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.6.0/backbone-min.js'
+			'https://raw.githubusercontent.com/jeromegn/Backbone.localStorage/master/build/backbone.localStorage.min.js'
 		], function() {
 		window.ant = new Ant(jQuery);
 	});
