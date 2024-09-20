@@ -268,7 +268,7 @@ function AntMain() {
 			'https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js',
 			'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js',
 			'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.7/underscore-min.js',
-			'https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.6.0/backbone-min.js'
+			'https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.6.0/backbone-min.js',
 			'https://raw.githubusercontent.com/jeromegn/Backbone.localStorage/master/build/backbone.localStorage.min.js'
 		], function() {
 		window.ant = new Ant(jQuery);
